@@ -4,7 +4,8 @@
   "description": "This is landing page tuttorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,9 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp.spritesmith": "^6.9.0",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
   }
 }

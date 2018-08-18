@@ -1,0 +1,46 @@
+.contacts {
+  text-align: right;
+}
+
+.contact {
+  padding: 10px 10px 8px;
+  color: #424242;
+  transition: 0.3s;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten(#424242, 20%);
+  }
+
+  &:first-child {
+    margin-right: 8px;
+    padding-right: 16px;
+    border-right: 1px solid #e2e2e2;
+  }
+
+  &:last-child {
+    padding: 0;
+  }
+
+  &__icon {
+    margin-right: 7px;
+    vertical-align: middle;
+    font-size: 1.5rem;
+
+    &--email {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__text {
+    margin-left: 6px;
+  }
+}
+
+.facebook-icon {
+  background-color: #1287bf;
+  color: #ffffff;
+  margin: 7px 0;
+  padding: 4px 7px;
+  border-radius: 3px;
+}
